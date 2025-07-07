@@ -1,0 +1,269 @@
+::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #202023;
+    border-radius: 100vw;
+    margin-block: 0.2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff6123;
+    border-radius: 3px;
+}
+
+body {
+    background-color: #191b1d;
+    color: whitesmoke;
+    font-family:"Bebas Neue", system-ui;
+    font-weight: 200;
+    margin: 0px;
+    font-size: 25px;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+    font-family:'Oswald', sans-serif;
+}
+
+li {
+    font-size: 25px;
+    font-family:'Oswald', sans-serif;
+}
+
+h1 {
+    color: #e45319;
+    font-size: 60px;
+}
+
+#websiteHeader {
+    z-index: 2;
+    background-color: #202424;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    min-height: 50px;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+}
+
+#websiteHeader > div:not(.icon-group) {
+    display: flex;
+    margin-left: 20px;
+    padding: 7.5px 25px;
+
+}
+
+.BGfx {
+    background-color: #202424;
+    transition: 0.5s;
+}
+
+.BGfx:hover{
+    background-color: #363838;
+}
+
+.links {
+    text-decoration: none;
+    color:#e45319;
+}
+
+.icon-group {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.icons {
+    max-height: 30px;
+    padding: 7px;
+    display: block;
+
+}
+
+#clock {
+    font-family:'Oswald', sans-serif;
+    font-size: 22px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.panicTitle {
+    font-size: 150px;
+    margin-top:0px;
+    white-space: nowrap;
+    justify-self: center;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.pText {
+    margin-left: 70px;
+    margin-top: -140px;
+    max-width: 580px;
+    scroll-margin-top: 250px;
+}
+
+#randomMsg {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #282a2d;
+    min-width: 200px;
+    position: absolute;
+    margin-top: -10px;
+    left: 70px;
+    transition: 0.25s;
+}
+
+#randomMsg:hover {
+    background-color: #e45319;   
+}
+
+#randomMsg:active {
+    background-color: #b34114;
+    transform: scale(0.95);
+}
+
+.emptyField {
+    font-family:"Oswald", sans-serif;
+    font-weight: 300;
+    min-height: 115px;
+    margin-left: 70px;
+    margin-top: 55px;
+}
+
+#cat {
+    z-index: 3;
+    max-height: 600px;
+    position:absolute;
+    right: 0px;
+    margin-top: -200px;
+}
+
+#catGlow {
+    max-height: 600px;
+    position: absolute;
+    right: 0px;
+    margin-top: -200px;
+    filter:blur(15px);
+    opacity: 0;
+    transition: 0.8s;
+}
+
+#cat:hover + #catGlow {
+    opacity: 1;
+}
+
+#catFixerButton {
+    display: block;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #282a2d;
+    min-width: 200px;
+    position: absolute;
+    right: 115px;
+    margin-top: 400px;
+    transition: 0.25s;
+}
+#catFixerButton:hover {
+    background-color: #e45319;
+}
+
+.hobbies {
+    position: relative;
+    top: -640px;
+    margin-left: 520px;
+}
+
+#hobbies {
+    scroll-margin-top: 60px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.lista {
+    margin-top: -50px;
+}
+
+.bookIMG {
+    max-width: 400px;
+    margin-left: 70px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+#h2 {
+    width: 100%;
+    font-size: 80px;
+    position: relative;
+    text-align: center;
+    top: -400px;
+    scroll-margin-top: 60px;
+    scroll-behavior: smooth; 
+}
+
+.countries {
+    max-width: 800px;
+    max-height: 300px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.countries:hover {
+    filter: grayscale(0%);
+}
+
+.table {
+    border-spacing: 5px;
+    position: relative;
+    justify-self: center;
+    margin-top: -430px;
+}
+
+th {
+    color: #e45319;
+}
+
+.line1 {
+    width: 100%;
+    border-bottom: 3px solid #e45319af;
+    margin-top: 10px;
+    margin-bottom: -25px;
+}
+.line2 {
+    width: 100%;
+    border-bottom: 3px solid #e45319af;
+    margin-top: -25px;
+}
+
+.PLink {
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 24px;
+    color:#e45319;
+    background-color: #0e0f10;
+    padding-bottom: 5px;
+    transition: background-color, color, 1s;
+    transition-delay: 0.5s;
+}
+
+.blinking {
+    background-color:#6d665e;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+}
+
+#link:hover {
+    color: rgb(32, 73, 220);
+}
